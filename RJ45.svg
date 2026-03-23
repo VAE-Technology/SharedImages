@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- outer body -->
+  <rect x="12" y="12" width="104" height="104" rx="8" ry="8" fill="none" stroke="black" stroke-width="5"></rect>
+
+  <!-- inner frame -->
+  <rect x="26" y="22" width="76" height="76" rx="2" ry="2" fill="none" stroke="black" stroke-width="5"></rect>
+
+  <!-- top contacts -->
+  <line x1="40" y1="28" x2="40" y2="48" stroke="black" stroke-width="5" stroke-linecap="square"></line>
+  <line x1="54" y1="28" x2="54" y2="42" stroke="black" stroke-width="5" stroke-linecap="square"></line>
+  <line x1="68" y1="28" x2="68" y2="42" stroke="black" stroke-width="5" stroke-linecap="square"></line>
+  <line x1="82" y1="28" x2="82" y2="42" stroke="black" stroke-width="5" stroke-linecap="square"></line>
+
+  <!-- jack opening -->
+  <path d="M38 58
+           H46
+           V68
+           H56
+           V78
+           H72
+           V68
+           H82
+           V58
+           H90" fill="none" stroke="black" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"></path>
+
+  <!-- bottom corners/details -->
+  <path d="M28 84 H38 V94 H48" fill="none" stroke="black" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"></path>
+  <path d="M80 94 H90 V84 H100" fill="none" stroke="black" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"></path>
+</svg>
